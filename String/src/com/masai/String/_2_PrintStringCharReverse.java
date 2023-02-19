@@ -5,6 +5,10 @@ package com.masai.String;
 public class _2_PrintStringCharReverse {
 	public static void findCharacter(String str){
 		
+		for(int i=str.length()-1; i>=0; i--) {
+			System.out.println(str.charAt(i));
+		}
+		
 	}
 	
 	
