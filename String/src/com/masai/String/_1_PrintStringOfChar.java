@@ -5,6 +5,9 @@ package com.masai.String;
 
 public class _1_PrintStringOfChar {
 	public static void findChracter(String str) {
+		for(int i=0; i<str.length(); i++) {
+			System.out.println(str.charAt(i));
+		}
 		
 	}
 	
